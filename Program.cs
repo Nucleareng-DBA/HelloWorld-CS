@@ -6,7 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string myString = "15";
+            string mySecondString = "13";
+            string resualt = myString + mySecondString;
+
+            Console.WriteLine(resualt);
         }
     }
 }
